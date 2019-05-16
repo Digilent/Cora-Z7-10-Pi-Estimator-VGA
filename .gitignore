@@ -40,7 +40,8 @@ src/hdl/**
 !src/hdl/*.v
 !src/hdl/*.vhd
 !src/ip
-src/ip/**
+!src/ip/*
+src/ip/*/**
 !src/ip/**/*.xci
 !src/other
 src/other/**
@@ -64,17 +65,6 @@ sdk/BSP/**
 !sdk/HW_PLATFORM
 sdk/HW_PLATFORM/**
 !sdk/HW_PLATFORM/.project
-
-# version controlled sources
-!src/bd/system.tcl
-src/constraints/*
-!src/constraints/*.xdc
-src/hdl/*
-!src/hdl/*.vhd
-!src/hdl/*.v
-src/ip/*/**
-!src/ip/*/*.xci
-!src/others/*
 
 # scripts submodule
 digilent-vivado-scripts/*
