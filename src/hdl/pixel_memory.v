@@ -42,6 +42,7 @@ module pixel_memory (
       .dina(reset_done),
       .wea(~reset_done | wrEnable),
       .addrb(readAddr),
+      .enb(1'b1),
       .clkb(clk),
       .doutb(color)
    );
